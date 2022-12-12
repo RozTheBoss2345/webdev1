@@ -1,0 +1,22 @@
+body{
+    max-width: 700px;
+    padding: 16px; 
+    margin: 0 auto;
+    font-family: Arial;
+    line-height: 1.5;
+    font-family: 'Poppins', sansserif;
+    background-color: #0001;
+    width: 700px;
+  }
+  h3{
+    color: orange;
+  }
+  footer{
+    text-align: center;
+  }
+  img{
+    max-width: 100%;
+    display: block;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+  
