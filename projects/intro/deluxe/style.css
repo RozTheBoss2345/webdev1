@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Maven+Pro:wght@400;600&display=swap');
+
+:root {
+  --color-body-text: #826e52;
+  --color-body-bg: #e6bb95;
+  --color-links: #549482;
+  --color-header-footer-bg: #56739a;
+  --padding-header-footer: 3rem;
+}
+
+* {
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Maven Pro', sans-serif;
+  background-color: var(--color-body-bg);
+  color: var(--color-body-text);
+  max-width: 30rem;
+  margin: 0 auto;
+}
+
+h1, h2 {
+  font-family: 'Anton', sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+a {
+  color: var(--color-links);
+}
+
+a:hover {
+  color: salmon;
+}
+
+p {
+  line-height: 1.65;
+}
+
+section {
+  padding-top: 1rem;
+}
+
+section p {
+  margin: 2rem 0;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+header {
+  background-color: var(--color-header-footer-bg);
+  padding: var(--padding-header-footer);
+  margin-bottom: 5rem;
+}
+
+nav {
+  margin-top: 1rem;
+}
+
+nav a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  margin-right: 1.5rem;
+}
+
+section {
+  margin-bottom: 10rem;
+}
+
+footer {
+  text-align: center;
+  background-color: var(--color-header-footer-bg);
+  padding: var(--padding-header-footer);
+}
+
+
+.center {
+  max-width: 30rem;
+  margin: 0 auto;
+}
