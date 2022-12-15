@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .left {
+    max-width: 80%;
+    position: absolute;
+    top: 20rem;
+    left: 0rem;
+   
+    
+  }
+  
+  
+  img{
+    padding: 2rem;
+    border-radius: 1.8rem;
+    display: block;
+    
+  }
+  :root {
+    --color-body-text: #e11e25;
+    --color-body-bg: #040404;
+    --color-links: #549482;
+    --color-header-footer-bg: #000000;
+    --padding-header-footer: 3rem;
+  }
+  
+  
+  
+  body {
+    font-family: 'Maven Pro', sans-serif;
+    background-color: var(--color-body-bg);
+    color: var(--color-body-text);
+    max-width: 30rem;
+    margin: 0 auto;
+  }
+  
+  h1, h2 {
+    font-family: 'Anton', sans-serif;
+  }
+  
+  h1 {
+    font-size: 3rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin: 1rem 0;
+  }
+  
+  
+  
+  section {
+    padding-top: 1rem;
+  }
+  
+  
+  img {
+    width: 100%;
+    display: block;
+  }
+
+
+  header {
+    max-width: 100%;
+    background-color: var(--color-header-footer-bg);
+    padding: var(--padding-header-footer);
+    margin-bottom: 5rem;
+  }
+
+  .center {
+    max-width: 30rem;
+    margin: 0 auto;
+  }
